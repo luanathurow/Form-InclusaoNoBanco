@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;   
+}
+
+/*mensagens abaixo do titulo*/
+p{
+    font-family:'Source Sans Pro'; 
+}
+
+#titulo{
+    width: 720px;
+    height: 18px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 115%;
+
+
+    color: #23152B;
+
+
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+}
+
+body{
+    box-sizing: border-box;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px;
+    gap: 32px;
+
+    width: 784px;
+    height: 336px;
+
+/* Branco */
+
+    background: #FFFFFF;
+/* Contornos */
+
+    border: 1px solid #E0E2E4;
+    border-radius: 8px;
+
+/* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+
+label{
+    width: 36px;
+    height: 16px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 115%;
+
+
+    color: #707274;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  
+}
+
+#button{
+    
+    width: 38px;
+    height: 16px;
+
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 115%;
+
+    text-align: center;
+    color: #343536;
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+    /* Campo */
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 16px;
+    gap: 8px;
+
+    width: 70px;
+    height: 40px;
+
+    /* Branco */
+
+    background: #FFFFFF;
+    /* Contornos */
+
+    border: 1px solid #E0E2E4;
+    border-radius: 8px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+input{
+    box-sizing: border-box;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 16px;
+    gap: 8px;
+
+    width: 352px;
+    height: 40px;
+
+    background: #FFFFFF;
+
+    border: 1px solid #E0E2E4;
+    border-radius: 8px;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+    margin: 3px;
+
+}
